@@ -194,56 +194,93 @@ All predictions on the validation set are available in the `visuals/predictions`
 
 ### Requirements:
 
-- Python 3.11.
-- PyTorch 2.5.
-- torchvision.
-- numpy.
-- pandas.
-- opencv-python.
-- albumentations.
-- matplotlib.
-- Pillow.
+- Python 3.11
+- PyTorch 2.5 with CUDA 12.1 support (for GPU) or CPU version
+- NumPy 1.26.4 (compatible with SciPy and Matplotlib)
+- SciPy 1.11.4
+- OpenCV 4.10.0
+- Albumentations 1.3.0+
+- Matplotlib 3.8.4
+- Pandas 2.0.0+
+- Pillow 10.0.0+
 
-### Installation Steps:
+### Automated Installation:
 
 #### Windows 11:
 
-```bash
-# Create a virtual environment (optional but recommended)
-python -m venv venv
-.\venv\Scripts\activate
+Run the automated setup script to create and configure the conda environment:
 
-# Install PyTorch 2.5 with CUDA support (if you have a compatible GPU)
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
-
-# Or install CPU-only version
-pip install torch torchvision
-
-# Install other dependencies
-pip install numpy pandas opencv-python albumentations matplotlib pillow jupyter
+```powershell
+.\setup_env_windows.ps1
 ```
+
+This script will:
+- Create a conda environment named `segmentation` with Python 3.11
+- Install PyTorch 2.5.1 with CUDA 12.1 support
+- Install all required dependencies from `requirements.txt`
+- Verify the installation
 
 #### Linux:
 
+Run the automated setup script:
+
 ```bash
-# Create a virtual environment (optional but recommended)
+chmod +x setup_env_linux.sh
+./setup_env_linux.sh
+```
+
+This script performs the same setup as the Windows version.
+
+### Manual Installation:
+
+#### Using Conda (Recommended):
+
+```bash
+# Create conda environment
+conda create -n segmentation python=3.11 -y
+conda activate segmentation
+
+# Install PyTorch with CUDA 12.1 support
+pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+#### Using pip and venv:
+
+**Windows 11:**
+
+```bash
+# Create virtual environment
+python -m venv venv
+.\venv\Scripts\activate
+
+# Install PyTorch with CUDA support
+pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+**Linux:**
+
+```bash
+# Create virtual environment
 python3.11 -m venv venv
 source venv/bin/activate
 
-# Install PyTorch 2.5 with CUDA support (if you have a compatible GPU)
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# Install PyTorch with CUDA support
+pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
 
-# Or install CPU-only version
-pip install torch torchvision
-
-# Install other dependencies
-pip install numpy pandas opencv-python albumentations matplotlib pillow jupyter
+# Install dependencies
+pip install -r requirements.txt
 ```
 
 ### Dataset Preparation:
 
-1. Download the Semantic Drone Dataset from [http://dronedataset.icg.tugraz.at/](http://dronedataset.icg.tugraz.at/).
-2. Extract the dataset to the `semantic_drone_dataset` directory in the project root.
+1. Download the Semantic Drone Dataset from [http://dronedataset.icg.tugraz.at/](http://dronedataset.icg.tugraz.at/)
+2. Extract the dataset to the `semantic_drone_dataset` directory in the project root
 3. Ensure the directory structure matches:
    ```
    semantic_drone_dataset/
@@ -254,6 +291,16 @@ pip install numpy pandas opencv-python albumentations matplotlib pillow jupyter
    │           ├── label_images/
    │           └── class_dict.csv
    ```
+
+### Running the Training Script:
+
+```bash
+# Activate environment
+conda activate segmentation  # or: source venv/bin/activate
+
+# Run training
+python semantic-drone-dataset-vgg16-unet.py
+```
 
 ### Running the Notebook:
 
@@ -268,10 +315,11 @@ jupyter notebook
 
 This implementation is tested and works on:
 
-- **Windows 11**: Full support for both CPU and CUDA-enabled GPUs.
-- **Linux**: Full support for both CPU and CUDA-enabled GPUs.
-- **Python Version**: 3.11.
-- **PyTorch Version**: 2.5.
+- **Windows 11**: Full support for both CPU and CUDA-enabled GPUs
+- **Linux**: Full support for both CPU and CUDA-enabled GPUs
+- **Python Version**: 3.11
+- **PyTorch Version**: 2.5.1
+- **CUDA Version**: 12.1
 
 ## Activations (Outputs) Visualization:
 
@@ -292,3 +340,11 @@ Additional activation maps are available in the `visuals/activations` directory.
 4. Towards Data Science - [Understanding Semantic Segmentation with UNET](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47), by Harshall Lamba.
 5. PyTorch Documentation - https://pytorch.org/docs/stable/index.html.
 6. Albumentations Documentation - https://albumentations.ai/docs/.
+
+## License:
+
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+
+Copyright © 2025 Mridankan Mandal
+
+See [LICENSE.md](LICENSE.md) for full license details.

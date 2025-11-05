@@ -51,7 +51,7 @@ def setup_device_and_safety():
             #Set cudnn to use less memory.
             os.environ["CUDNN_AUTOTUNE_THRESHOLD"] = "0"
 
-            print("\n=== GPU Safety Features Enabled ===")
+            print("\nGPU Safety Features Enabled.")
             print(f"Initial GPU memory allocated (MB): {torch.cuda.memory_allocated() / (1024**2):.2f}")
             print(f"Initial GPU memory reserved (MB): {torch.cuda.memory_reserved() / (1024**2):.2f}")
 

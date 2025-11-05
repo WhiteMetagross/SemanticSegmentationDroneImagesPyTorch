@@ -1,5 +1,14 @@
-# Model files (too large for git)
+# Dataset directory
+semantic_drone_dataset/
+
+# Model files (large)
+models/
 *.pth
+*.h5
+*.hdf5
+
+# Training outputs
+visuals/predictions/
 *.pkl
 
 # Python cache
@@ -7,45 +16,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-
-# Distribution / packaging
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Environment
-.env
-.venv
-env/
+# Virtual environments
 venv/
+env/
 ENV/
-env.bak/
-venv.bak/
+.venv
 
-# Dataset files (too large)
-semantic_drone_dataset/
-
-# Generated outputs
-models/
-visuals/predictions/
-visuals/*.png
-*.log
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
 # IDE
 .vscode/
@@ -56,3 +36,10 @@ visuals/*.png
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
