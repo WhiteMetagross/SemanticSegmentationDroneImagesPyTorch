@@ -177,16 +177,16 @@ The <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/bl
 
 Predictions on Validation Set Images:
 
-<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_21.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_23.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_49.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_24.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_58.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_28.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_55.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_60.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_69.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_73.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_21.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_23.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_49.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_24.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_58.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_28.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_55.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_60.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_69.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_73.jpg" /></p>
 
 All predictions on the validation set are available in the `visuals/predictions` directory.
 
