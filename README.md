@@ -345,6 +345,6 @@ Additional activation maps are available in the `visuals/activations` directory.
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 
-Copyright © 2025 Mridankan Mandal
+Copyright: 2025 Mridankan Mandal.
 
 See [LICENSE.md](LICENSE.md) for full license details.
