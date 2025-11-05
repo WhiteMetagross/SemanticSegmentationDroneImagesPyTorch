@@ -8,7 +8,17 @@ models/
 *.hdf5
 
 # Training outputs
-visuals/predictions/
+visuals/predictions/*
+!visuals/predictions/prediction_21.png
+!visuals/predictions/prediction_23.png
+!visuals/predictions/prediction_24.png
+!visuals/predictions/prediction_28.png
+!visuals/predictions/prediction_49.png
+!visuals/predictions/prediction_55.png
+!visuals/predictions/prediction_58.png
+!visuals/predictions/prediction_60.png
+!visuals/predictions/prediction_69.png
+!visuals/predictions/prediction_73.png
 *.pkl
 
 # Python cache
