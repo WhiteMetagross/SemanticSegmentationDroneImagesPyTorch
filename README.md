@@ -177,16 +177,16 @@ The <a href="https://github.com/ayushdabra/drone-images-semantic-segmentation/bl
 
 Predictions on Validation Set Images:
 
-<p align="center"><img width = "auto" height= "auto" src="./visuals/predictions/prediction_21.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./visuals/predictions/prediction_23.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./visuals/predictions/prediction_49.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./visuals/predictions/prediction_24.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./visuals/predictions/prediction_58.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./visuals/predictions/prediction_28.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./visuals/predictions/prediction_55.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./visuals/predictions/prediction_60.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./visuals/predictions/prediction_69.png" /></p>
-<p align="center"><img width = "auto" height= "auto" src="./visuals/predictions/prediction_73.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_21.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_23.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_49.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_24.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_58.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_28.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_55.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_60.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_69.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="https://raw.githubusercontent.com/WhiteMetagross/SemanticSegmentationDroneImagesPyTorch/master/visuals/predictions/prediction_73.png" /></p>
 
 All predictions on the validation set are available in the `visuals/predictions` directory.
 
